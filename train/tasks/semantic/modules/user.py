@@ -46,7 +46,8 @@ class User():
                                       max_points=self.ARCH["dataset"]["max_points"],
                                       batch_size=1,
                                       workers=self.ARCH["train"]["workers"],
-                                      gt=True,
+                                      # gt=True,
+                                      gt=False,
                                       shuffle_train=False)
 
     # concatenate the encoder and the head
