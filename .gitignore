@@ -9,3 +9,6 @@
 devel/
 logs/
 external.hpp
+
+predicted/
+pretrained/
